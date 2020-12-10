@@ -5,7 +5,7 @@
     $inser=mysqli_query($conexion, $sql);
     if($inser){
         echo "<script>alert('se ha registrado el usuario con exito');
-        window.location='/actividad19'</script>";
+        window.location='./checausr.php'</script>";
     }else{
         echo "<script>alert('No tuvimos exito');
         window.history.go(-1);</script>";
